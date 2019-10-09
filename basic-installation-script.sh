@@ -23,7 +23,6 @@ brew cask install zoomus
 
 # Entertainment
 brew cask install spotify
-brew cask install helium
 brew cask install epic-games
 brew cask install steam
 
