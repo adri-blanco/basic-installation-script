@@ -2,30 +2,30 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Code
-brew cask iterm2
-brew cask visual-studio-code
-brew cask google-chrome
-brew cask docker
-brew cask sourcetree
-brew cask postman
-brew cask sequel-pro
-brew cask robo-3t
+brew cask install iterm2
+brew cask install visual-studio-code
+brew cask install google-chrome
+brew cask install docker
+brew cask install sourcetree
+brew cask install postman
+brew cask install sequel-pro
+brew cask install robo-3t
 
 # Storage
-brew cask dropbox
-brew cask keka
+brew cask install dropbox
+brew cask install keka
 
 # Communication
-brew cask slack
-brew cask telegram
-brew cask whatsapp
-brew cask zoomus
+brew cask install slack
+brew cask install telegram
+brew cask install whatsapp
+brew cask install zoomus
 
 # Entertainment
-brew cask spotify
-brew cask helium
-brew cask epic-games
-brew cask steam
+brew cask install spotify
+brew cask install helium
+brew cask install epic-games
+brew cask install steam
 
 # 3D
-brew cask meshmixer
+brew cask install meshmixer
