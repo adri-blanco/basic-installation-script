@@ -28,3 +28,11 @@ brew cask install steam
 
 # 3D
 brew cask install meshmixer
+
+# Configuration
+# Change the screenshot folder to one folder in the Desktop
+mkdir ~/Desktop/screenshot
+defaults write com.apple.screencapture location ~/Desktop/screenshot
+
+# Make the node_modules accesible for your user. This will let you install global dependencies
+sudo chown -R $USER /usr/local/lib/node_modules
