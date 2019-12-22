@@ -36,3 +36,6 @@ defaults write com.apple.screencapture location ~/Desktop/screenshot
 
 # Make the node_modules accesible for your user. This will let you install global dependencies
 sudo chown -R $USER /usr/local/lib/node_modules
+
+# Create ssh keys to connect with github/bitbucket
+ssh-keygen -t rsa
