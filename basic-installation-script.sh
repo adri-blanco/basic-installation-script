@@ -6,10 +6,12 @@ brew cask install iterm2
 brew cask install visual-studio-code
 brew cask install google-chrome
 brew cask install docker
+brew install docker-compose
 brew cask install sourcetree
 brew cask install postman
 brew cask install sequel-pro
 brew cask install robo-3t
+brew install yarn
 
 # Storage
 brew cask install dropbox
