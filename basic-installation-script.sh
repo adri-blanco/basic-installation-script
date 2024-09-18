@@ -1,35 +1,42 @@
 # Install brew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+# /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Code
-brew cask install iterm2
-brew cask install visual-studio-code
-brew cask install google-chrome
-brew cask install docker
-brew install docker-compose
-brew cask install sourcetree
-brew cask install postman
-brew cask install sequel-pro
-brew cask install robo-3t
+brew install node
+brew install nvm
 brew install yarn
+brew install --cask iterm2
+brew install --cask visual-studio-code
+brew install --cask google-chrome
+brew install --cask docker
+brew install docker-compose
+brew install --cask sourcetree
+brew install --cask postman
+brew install --cask dbeaver-community
+brew install yarn
+brew install azure-cli
+brew install figma
 
 # Storage
-brew cask install dropbox
-brew cask install keka
+brew install --cask keka
+
+# Misc
+brew install --cask notion
 
 # Communication
-brew cask install slack
-brew cask install telegram
-brew cask install whatsapp
-brew cask install zoomus
+brew install --cask slack
+brew install --cask telegram
+brew install --cask whatsapp
+brew install zoom
 
 # Entertainment
-brew cask install spotify
-brew cask install epic-games
-brew cask install steam
+brew install --cask spotify
+brew install --cask epic-games
+brew install --cask steam
 
 # 3D
-brew cask install meshmixer
+# brew install --cask meshmixer
 
 # Configuration
 # Change the screenshot folder to one folder in the Desktop
@@ -41,3 +48,7 @@ sudo chown -R $USER /usr/local/lib/node_modules
 
 # Create ssh keys to connect with github/bitbucket
 ssh-keygen -t rsa
+
+# Do nvm accesible
+echo 'export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm'
